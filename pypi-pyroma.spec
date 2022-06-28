@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyroma
 Version  : 4.0
-Release  : 29
+Release  : 30
 URL      : https://files.pythonhosted.org/packages/ad/cb/953ac562535c95c80830c9bf9fd2ca657d21a8329e428d36c33d0d25cb55/pyroma-4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ad/cb/953ac562535c95c80830c9bf9fd2ca657d21a8329e428d36c33d0d25cb55/pyroma-4.0.tar.gz
 Summary  : Test your project's packaging friendliness
@@ -93,7 +93,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656382217
+export SOURCE_DATE_EPOCH=1656400035
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
