@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyroma
 Version  : 4.1
-Release  : 36
+Release  : 37
 URL      : https://files.pythonhosted.org/packages/6d/03/ec5c0630476fefd9ea76fa71ab9d780133e918c983d22513c3603bd7c93d/pyroma-4.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6d/03/ec5c0630476fefd9ea76fa71ab9d780133e918c983d22513c3603bd7c93d/pyroma-4.1.tar.gz
 Summary  : Test your project's packaging friendliness
