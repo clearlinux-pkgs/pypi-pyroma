@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : pypi-pyroma
-Version  : 4.3.2
-Release  : 48
-URL      : https://files.pythonhosted.org/packages/c8/36/1bf71161871e2353b8410b69b3e10b247ad94762426bc46944a8a7bae13f/pyroma-4.3.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/c8/36/1bf71161871e2353b8410b69b3e10b247ad94762426bc46944a8a7bae13f/pyroma-4.3.2.tar.gz
+Version  : 5.0
+Release  : 49
+URL      : https://files.pythonhosted.org/packages/4b/b8/0b3e91b9967470f69b63379058180c3a00c4a1df424e8a73c3ba93ae32e2/pyroma-5.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/4b/b8/0b3e91b9967470f69b63379058180c3a00c4a1df424e8a73c3ba93ae32e2/pyroma-5.0.tar.gz
 Summary  : Test your project's packaging friendliness
 Group    : Development/Tools
 License  : MIT
@@ -19,6 +19,7 @@ Requires: pypi-pyroma-python = %{version}-%{release}
 Requires: pypi-pyroma-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(py)
+BuildRequires : pypi(setuptools)
 BuildRequires : pypi-pluggy
 BuildRequires : pypi-pytest
 BuildRequires : pypi-tox
@@ -74,10 +75,10 @@ python3 components for the pypi-pyroma package.
 
 
 %prep
-%setup -q -n pyroma-4.3.2
-cd %{_builddir}/pyroma-4.3.2
+%setup -q -n pyroma-5.0
+cd %{_builddir}/pyroma-5.0
 pushd ..
-cp -a pyroma-4.3.2 buildavx2
+cp -a pyroma-5.0 buildavx2
 popd
 
 %build
@@ -85,7 +86,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1751468802
+export SOURCE_DATE_EPOCH=1752580781
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
